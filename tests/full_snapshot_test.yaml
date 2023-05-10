@@ -1,0 +1,7 @@
+suite: Full Snapshot
+templates:
+  - '*.yaml'
+tests:
+  - it: matches the snapshot
+    asserts:
+      - matchSnapshot: {}
