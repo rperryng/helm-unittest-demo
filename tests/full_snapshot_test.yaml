@@ -1,6 +1,7 @@
 suite: Full Snapshot
 templates:
   - '*.yaml'
+  - dash-case-filename.yaml
 tests:
   - it: matches the snapshot
     asserts:
